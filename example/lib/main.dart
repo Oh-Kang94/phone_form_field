@@ -23,6 +23,7 @@ class PhoneFieldView extends StatelessWidget {
     Locale('hi'),
     Locale('hu'),
     Locale('it'),
+    Locale('ko'),
     // not supported by material yet
     // Locale('ku'),
     Locale('nb'),
@@ -120,7 +121,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       localizationsDelegates: PhoneFieldLocalization.delegates,
       supportedLocales: PhoneFieldView.supportedLocales,
-      locale: const Locale('en'),
+      locale: const Locale('ko'),
       title: 'Phone field demo',
       theme: ThemeData(
         brightness: Brightness.dark,

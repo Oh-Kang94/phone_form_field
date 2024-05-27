@@ -81,10 +81,11 @@ packages:
   flutter_country_selector:
     dependency: transitive
     description:
-      name: flutter_country_selector
-      sha256: "2f2e3e88c1cc8f18d3924c9aa31f04db3b5da34309d6c8fed832a31bca612a38"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: "270af52a79df976b0fb942927b72fbab3ec8d9ba"
+      resolved-ref: "270af52a79df976b0fb942927b72fbab3ec8d9ba"
+      url: "https://github.com/Oh-Kang94/flutter_country_selector.git"
+    source: git
     version: "1.0.9"
   flutter_lints:
     dependency: "direct dev"
